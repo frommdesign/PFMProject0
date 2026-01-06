@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FILTERGRAPH>
+  <FILTER uid="1" x="0.5" y="0.1" useARA="0">
+    <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="246006c0"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="2" isShell="0" hasARAExtension="0" uid="246006c0"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="2" x="0.25" y="0.1" useARA="0">
+    <PLUGIN name="MIDI Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="a9e4f9eb"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="0" isShell="0" hasARAExtension="0" uid="a9e4f9eb"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="3" x="0.5" y="0.9" useARA="0">
+    <PLUGIN name="Audio Output" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="724248cb"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="0" isShell="0" hasARAExtension="0" uid="724248cb"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="4" x="0.25" y="0.9" useARA="0">
+    <PLUGIN name="MIDI Output" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="9d5bbb00"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="0" isShell="0" hasARAExtension="0" uid="9d5bbb00"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="6" x="0.4978354978354979" y="0.7215189873417721" useARA="0">
+    <PLUGIN name="OP8" format="VST3" category="Instrument|Synth" manufacturer="FROMM DESIGN"
+            version="0.0.3" file="/Users/niles/Desktop/Github/juce-starter/build/OP8_artefacts/Debug/VST3/OP8.vst3"
+            uniqueId="259389f5" isInstrument="1" fileTime="19a33bfef06" infoUpdateTime="19b910c818d"
+            numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="56f55e23"/>
+    <STATE>2381.VMjLgPTB...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DyMvDiKV0jZLclKrEjKt3xSqX1UgIWPnM1ZIIiXugCaggCRRwDctjFRlQEagkFNFk0azDSV3fjTUQUVTszLHg2S43hPOAUQrI1YvXUV5UEahkGMC8DTEoFUAACQH8VTV8DZhYEVuQiULglKnM1Y2Y0XqASZHY2LnwDLtLDS14xPLgmZC4jcHkGS3gzPMg1Mn8zMtTETRUDUSYlZFkENHgWVmsFaggGRBgTLEYTXvTkUOglKosDdTMDS14xPLYGRS4zLtjFS4gTZLoGR3sTN1MDUAkTUP0TPRokZvjFRsUjUZQWSogjYXcEVxU0UYgCRBwDcHMUS14xPLYmKowDMlMDS3wTZLgGTogTcyLzSPUjZTEDLDgzaQY0SnIlUX8FMF0DZtf1XmcmUisFLogjcyfFSv3xPLYmKCwDdpMjS1gTdLgGRC0DZ2f1S23RUPIUQTMkYpYTV3fDZhcVTWoUcEkFRlg0UXIWUWkENHIDSzQUZHU2LC8DTEoFUAACQH8VTV8DZHcEV5sVLggGRBgTLEYTXvTkUOgFQosjcHg2R4X2PTETRUAUSAIkVpASZHgWQFM1a3DCSn4BZic1cVM1ZvjFR2MiTNQiZS4DMpMjSy3RdMQiK40zcHg2R4X2PTETRUAUSAIkVpASZHgWQFM1a3XTSn4BZic1cVM1ZvjFR5MiPLg1Mn8zMtTETRUDUSYlZFkENHIjV2cSUXoWTWgUZywFR0MyPOAUQpQUPvPDRuEkUOglYVwTYQYUVoUjUjg1Mn8zMtTETRUDUSYlZFkENHIjV2cCLYc1ZrEFZ2f1S23RUPIUQTMkYpYTV3fjPZc2MqI1YQckV0kDdKkicCQUPIUETMEjTZoFLogjaEk2U3UkQgsVQwH1ZIg2R4X2PTETRUAUSAIkVpASZH4VQ4cUdUIiX5UjUZQWR3sTN1MDUAkTUP0TPRokZvjFRtkTdWcVTGM1YMEiVncCZOciKUAkTEQ0TlolQYgCRBoEd2TTVq0jUXQSR3sTN1MDUAkTUP0TPRokZvjFRtkTdW0VQVoEcIg2R4X2PTETRUAUSAIkVpASZH4VR4cEdEYzXugCaHU2LC8DTEoFUAACQH8VTV8DZlwFSkkzUYIWUVgUdUwFR0MyPOAUQpQUPvPDRuEkUOglYrwTYMc0X4E0UX8FMrgTcyLzSPUjZTEDLDgzaQY0SnYVLLUVQFMldEECVwkDdKkicCQUPIUETMEjTZoFLogjaMk2UpUULXc1ZsgTcyLzSPUjZTEDLDgzaQY0SnYVLLU1XVg0azvFR0MyPOAUQpQUPvPDRuEkUOglYwvTYIcEV5sVLgg1Mn8zMtTETRUDUSYlZFkENHIjV4cyZhs1cVk0YMcUVncCZOciKUAkTEQ0TlolQYgCRBoUd2.iXvzzQic1ZrEFZ2f1S23RUPIUQTMkYpYTV3fjPZo2MUgkdQcEVoMGaHU2LC8DTEoFUAACQH8VTV8DZlYTSkEkUYkVQVQFZ2f1S23RUPIUQTMkYpYTV3fjPZo2Mvj0YqwVXncCZOciKUAkTEQ0TlolQYgCRBokd2rlXmE0UZUWR3sTN1MDUAkTUP0TPRokZvjFRtEUdWgWUFE1ZEEiXqkDdKkicCQUPIUETMEjTZoFLogjaQk2U4UkLhoWQVoEcIg2R4X2PTETRUAUSAIkVpASZH4VU4c0YQczXm0TLZg1Mn8zMtTETRUDUSYlZFkENHIjVvbSQYsVSVgEMIg2R4X2PTETRUAUSAIkVpASZH4VU4cUaEYkVzkDdKkicCQUPIUETMEjTZoFLogjaUk2U3UjQi8FNrgTcyLzSPUjZTEDLDgzaQY0SnYlUMUVRWkkbUYEV4UEaHU2LC8DTEoFUAACQH8VTV8DZlYUSk0zUikWTWg0azvFR0MyPOAUQpQUPvPDRuEkUOglYr0TYEYzX5UTLXEWR3sTN1MDUAkTUP0TPRokZvjFRtkUdWoVUwf0Yq0FR0MyPOAUQpQUPvPDRuEkUOglYr0TYiYEVuQCaHU2LC8DTEoFUAACQH8VTV8DZlwVSkkzUXo2ZwDFZ2f1S23RUPIUQTMkYpYTV3fjPZEyMqI1Z2YUVm0zUYg1Mn8zMtTETRUDUSYlZFkENHIjVwbCLhASSGM1YqwVXncCZOciKUAkTEQ0TlolQYgCRBokL2TEV5E0UXk1brgTcyLzSPUjZTEDLDgzaQY0SnYVLMUVTVkUZEYEYncCZOciKUAkTEQ0TlolQYgCRBokL2.SVmsFagg1Mn8zMtTETRUDUSYlZFkENHIjVxbyZhcVTWoUcIg2R4X2PTETRUAUSAIkVpASZH41X4cEdUYTXqUTLhsVR3sTN1MDUAkTUP0TPRokZvjFRtMVdWkWUxHldEYkVzkDdKkicCQUPIUETMEjTZoFLogjamk2UmE0QicVSwnEZ2f1S23RUPIUQTMkYpYTV3fjPZMyMEk0ZMYEVzjDdKkicCQUPIUETMEjTZoFLogjamk2UsUjUZQWR3sTN1MDUAkTUP0TPRokZvjFRtcVdWgWQFM1a3vFR0MyPOAUQpQUPvPDRuEkUOglYF4TYIcUVxUkUXkWUrgTcyLzSPUjZTEDLDgzaQY0SnYlQNUVSWMVdQcEVuQCaHU2LC8DTEoFUAACQH8VTV8DZlYkSkUjQioWQwfUbIg2R4X2PTETRUAUSAIkVpASZH41Z4ckZUECVmsVaHU2LC8DTEoFUAACQH8VTV8DZlYkSkMlUX8FMrgTcyLzSPUjZTEDLDgzaQY0SnYlUNUVRWgkdqESXncCZOciKUAkTEQ0TlolQYgCRBoEM2rlXqcmUYcVSWkEZ2f1S23RUPIUQTMkYpYTV3fjPZQyMvHFLMczXmsFagg1Mn8zMtTETRUDUSYlZFkENHgVX0sVLhsVR3sTN1k2RPUDahcFLVkkdUwlX4QyPt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS/>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="7" x="0.7070707070707071" y="0.3294117647058823" useARA="0"
+          uiLastX_Normal="490" uiLastY_Normal="123" uiopen_Normal="0">
+    <PLUGIN name="PFMProject0" format="VST3" category="Instrument|Synth"
+            manufacturer="yourcompany" version="1.0.0" file="/Users/niles/Library/Audio/Plug-Ins/VST3/PFM0.vst3"
+            uniqueId="fd9bd51e" isInstrument="1" fileTime="19b9105e250" infoUpdateTime="19b910c818d"
+            numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="acfa0dae"/>
+    <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS/>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <CONNECTION srcFilter="2" srcChannel="4096" dstFilter="6" dstChannel="4096"/>
+  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="3" dstChannel="0"/>
+  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="3" dstChannel="1"/>
+</FILTERGRAPH>
